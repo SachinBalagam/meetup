@@ -1,0 +1,46 @@
+.login-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh;
+}
+.login-card {
+  display: flex;
+}
+.form-container {
+  display: flex;
+  flex-direction: column;
+}
+.heading {
+  font-size: 60px;
+  font-weight: 500;
+  color: #334155;
+}
+.label {
+  color: #475569;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+.input {
+  margin-bottom: 20px;
+  height: 35px;
+  padding: 5px;
+  border: 1px solid #cbd5e1;
+  border-radius: 5px;
+}
+.register-button {
+  background-color: #3b82f6;
+  color: #ffffff;
+  align-self: flex-start;
+  height: 35px;
+  width: 100px;
+  border: 0;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.error {
+  color: #ff0b37;
+  font-size: 14px;
+  font-family: 'Roboto';
+}

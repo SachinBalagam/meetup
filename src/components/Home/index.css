@@ -1,0 +1,38 @@
+.home-container {
+  min-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.meetup-image {
+  margin-top: 30px;
+  width: 600px;
+}
+.custom-button {
+  background-color: #3b82f6;
+  color: #ffffff;
+  height: 35px;
+  width: 100px;
+  border: 0;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.home-heading {
+  font-family: 'Roboto';
+  font-size: 50px;
+  margin-bottom: 0;
+  color: #334155;
+}
+.home-description {
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 400;
+  color: #7b8794;
+}
